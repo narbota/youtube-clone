@@ -12,7 +12,10 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+h3 {
+  text-align: left;
+  margin: 0;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +38,112 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav__menu {
+  background-color: white;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  z-index: 2;
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+}
+#menu__icon {
+  margin-left: 5px;
+}
+.header__logo {
+  height: 25px;
+  object-fit: contain;
+  margin-left: 20px;
+}
+.left__side {
+  margin-left: 5px;
+}
+.search__bar {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  border: 1px solid lightgray;
+}
+#input__bar {
+  flex: 1;
+  border: none;
+}
+#input__button {
+  width: 50px !important;
+  background-color: #fafafa;
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgray;
+}
+.right__side {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+}
+.video__container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  border: 1px solid #fafafa;
+  background-color: #fafafa;
+}
+.video__info {
+  display: flex;
+}
+.video__card {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+
+  margin-bottom: 40px;
+}
+.video__image {
+  height: 140px;
+  width: 250px;
+}
+.channel__thumbnail {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%50%;
+  size: 5px;
+  margin-top: 5px;
+}
+.video__text {
+  text-align: left;
+  padding: 5px;
+}
+
+.video__text h4 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.video__text p {
+  display: flex;
+  margin-bottom: 0;
+  margin-block-start: 0;
+}
+/* .video__text {
+  di
+} */
+.flex__container {
+  display: flex;
+  flex-direction: row;
+}
+.html5__video__container {
+  margin-left: 50px;
+  background-color: #fafafa;
+  flex: 60%;
+}
+.right__section {
+  display: flex;
+  flex: 40%;
+  margin-right: 50px;
+  border: 1px solid red;
+}
+.video__title {
+  d
+}
+.video__data {
 }
